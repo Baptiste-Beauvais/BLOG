@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@700&display=swap');
+
+body{
+  margin: 0px;
+}
+
+.hero{
+  height: 65vh;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://images.unsplash.com/photo-1616768624185-e34c5d439e1b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80");
+  background-size: cover;
+
+}
+
+.hero:hover{
+  background-image: url("https://images.unsplash.com/photo-1618572195571-1fdd75cd7add?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80");
+}
+
+.exemple1 {
+  color: white;
+  text-shadow: 2px 2px 0px #ae4e6f;
+  
+}
+
+.exemple2 h1{
+  background-color: #0a7025;
+  font-family: 'Montserrat Alternates', sans-serif;
+  color : white;
+  text-align :center;
+}
+
+.container{
+  font-family: 'Montserrat Alternates', sans-serif;
+  border-left: 8px solid #2e4c80;
+  border-right: 8px solid #991220;
+  border-top: 8px solid grey;
+  border-bottom: 8px solid grey;
+  margin : 15px;
+  text-align: center;
+  padding : 0px 80px 25px 0px;
+}
+
+.bouton-site{
+  color: #2e4c80;
+  background-color: white;
+  text-decoration: none;
+  padding: 6px 20px;
+  border : solid 3px #2e4c80;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 900;
+}
+
+.bouton-site:hover {
+  color: white;
+  background-color: #2e4c80;
+  padding: 6px 20px;
+  border : solid 5px #2e4c80;
+  border-radius: 50px;
+}
+
+.imgtest{
+  width: 900px;
+  height : 200px;
+  background-size: cover;
+  display : inline-block;
+}
+
+.img1{
+  background-image: url("https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1953&q=80");
+}
+
+.img2{
+  background-image: url("https://images.unsplash.com/photo-1565106430482-8f6e74349ca1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80");
+}
+
+.img3{
+  background-image: url("https://images.unsplash.com/photo-1571165841024-2ce92069301d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80");
